@@ -44,7 +44,7 @@ export default function RootLayout({
         property="og:site_name"
         content="Vecto3d | Transform Your Vectors in a New Dimension"
       />
-      <meta property="og:url" content="https://vecto3d.xyz/" />
+      <meta property="og:url" content="https://vecto3d-xd.vercel.app/" />
       <meta name="twitter:image" content="/twitter-image.png" />
       <meta name="twitter:image:type" content="image/png" />
       <meta name="twitter:image:width" content="1200" />
