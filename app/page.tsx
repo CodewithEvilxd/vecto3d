@@ -85,7 +85,7 @@ export default function Home() {
   };
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/lakshaybhushan/vecto3d")
+    fetch("https://api.github.com/repos/codewithevilxd/vecto3d")
       .then((response) => response.json())
       .then((data) => {
         const starCount = data.stargazers_count;
@@ -165,7 +165,7 @@ export default function Home() {
           <NotAScam />
           <ModeToggle />
           <Link
-            href="https://github.com/lakshaybhushan/vecto3d"
+            href="https://github.com/codewithevilxd/vecto3d"
             target="_blank"
             rel="noopener noreferrer">
             <Button className="flex items-center gap-1 w-fit">
@@ -395,11 +395,11 @@ export default function Home() {
             </Link>
             <span className="text-muted-foreground">by</span>
             <Link
-              href="https://lakshb.dev"
+              href=""
               className="hover:underline font-medium hover:text-primary transition-colors duration-200"
               target="_blank"
               rel="noopener noreferrer">
-              lakshaybhushan
+              evilxd
             </Link>
           </motion.div>
         </motion.div>
